@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+       android:fontFamily="times"
+        ></TextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/loginusername"
+    android:hint="Enter a username"
+    android:layout_marginTop="40dp"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:fontFamily="times"
+    ></com.google.android.material.textfield.TextInputEditText>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:id="@+id/loginpassword"
+        android:hint="Enter a Password"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="times"
+        ></com.google.android.material.textfield.TextInputEditText>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:id="@+id/login_btn"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+></Button>
+
+    
+
+
+
+
+
+
+
+
+</LinearLayout>

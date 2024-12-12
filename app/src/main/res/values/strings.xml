@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="hello">hello</string>
+    <string name="home">home</string>
+    <string name="collage">collage</string>
+    <string name="profile">Profile</string>
+</resources>
