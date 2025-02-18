@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (item.getItemId() == R.id.profile) {
                 selectedFragment = new ProfileFragment(); // Switch to ProfileFragment
             } else if (item.getItemId() == R.id.collage) {
-                selectedFragment = new CollageFragement(); // Switch to CollageFragment
+                selectedFragment = new CollegeFragment(); // Switch to CollageFragment
             }
 
             // Replace the current fragment in fragment_container with the selectedFragment

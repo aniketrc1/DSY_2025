@@ -30,7 +30,10 @@ android {
 }
 
 dependencies {
+    implementation ("com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1")
+
     implementation ("androidx.room:room-runtime:2.5.0")
+    implementation("com.google.firebase:firebase-firestore:25.1.1")
     annotationProcessor ("androidx.room:room-compiler:2.5.0")
 
     implementation("androidx.appcompat:appcompat:1.6.1")

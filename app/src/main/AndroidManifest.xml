@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -16,21 +19,49 @@
         tools:targetApi="31">
         <activity
             android:name=".login"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
         <activity
             android:name=".register"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
 
         </activity>
+
+        <activity
+            android:name=".Suggestion"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".cutoff"
+            android:exported="true">
+
+
+        </activity>
+
+        <activity
+            android:name=".ResultActivity"
+            android:exported="true">
+
+
+        </activity>
+
+        <activity android:name=".Scholarship"
+            android:exported="true"> </activity>
+
+
     </application>
+
 
 </manifest>

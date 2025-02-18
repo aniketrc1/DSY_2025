@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <!-- DTE Code in Round Shape -->
+    <TextView
+        android:id="@+id/tvDteCode"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_shape"
+        android:textSize="16sp" />
+
+    <!-- College Name -->
+    <TextView
+        android:id="@+id/tvCollegeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+</LinearLayout>
